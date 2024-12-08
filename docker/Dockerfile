@@ -11,9 +11,9 @@ COPY . .
 
 FROM quay.io/np22-jpg/fedora-node AS release
 
-LABEL maintainer="TitaniumNetwork Ultraviolet Team"
-LABEL summary="Ultraviolet Proxy Image"
-LABEL description="Example application of Ultraviolet which can be deployed in production."
+LABEL maintainer="Tinfoil Team"
+LABEL summary="Tinf0il Proxy Image"
+LABEL description="Example application of Tinf0il which can be deployed in production."
 
 ENV NODE_ENV=production
 
